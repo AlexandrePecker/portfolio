@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-foreground/60 text-sm">
-            © {new Date().getFullYear()} Alexandre Pecker. Todos os direitos reservados.
+            © {new Date().getFullYear()} Alexandre Sampaio. Todos os direitos reservados.
           </p>
 
           <motion.button

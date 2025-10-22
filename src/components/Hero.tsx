@@ -31,7 +31,7 @@ const Hero = () => {
           >
             <img
               src={profilePhoto}
-              alt="Alexandre Pecker"
+              alt="Alexandre Sampaio"
               className="w-40 h-40 rounded-full mx-auto border-4 border-primary shadow-glow object-cover"
             />
           </motion.div>
@@ -44,7 +44,7 @@ const Hero = () => {
           >
             Oi, eu sou o{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Alexandre Pecker
+              Alexandre Sampaio
             </span>{" "}
             👋
           </motion.h1>

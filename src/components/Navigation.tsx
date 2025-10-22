@@ -46,7 +46,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            AP
+            AS
           </motion.button>
 
           <ul className="hidden md:flex items-center gap-8">
