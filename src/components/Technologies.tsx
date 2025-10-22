@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import {
-  SiGo,
-  SiPython,
-  SiDjango,
   SiReact,
   SiTypescript,
   SiDocker,
   SiPostgresql,
   SiMysql,
   SiGit,
+  SiPhp,
+  SiNodedotjs,
+  SiAngular
 } from "react-icons/si";
 
 const Technologies = () => {
@@ -18,15 +18,15 @@ const Technologies = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const technologies = [
-    { name: "Go", icon: SiGo, color: "#00ADD8" },
-    { name: "Python", icon: SiPython, color: "#3776AB" },
-    { name: "Django", icon: SiDjango, color: "#092E20" },
     { name: "React", icon: SiReact, color: "#61DAFB" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     { name: "Docker", icon: SiDocker, color: "#2496ED" },
     { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
     { name: "MySQL", icon: SiMysql, color: "#4479A1" },
     { name: "Git", icon: SiGit, color: "#F05032" },
+    { name: "PHP", icon:SiPhp, color: "#474A8A" },
+    { name: "Node", icon: SiNodedotjs, color: "#3C873A" },
+    { name: "Angular", icon: SiAngular, color: "#C3002F" },
   ];
 
   const container = {

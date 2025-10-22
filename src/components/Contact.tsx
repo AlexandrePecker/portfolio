@@ -46,8 +46,8 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       label: "Email",
-      value: "alexandre@example.com",
-      href: "mailto:alexandre@example.com",
+      value: "alexandrepeckersampaio@hotmail.com",
+      href: "mailto:alexandrepeckersampaio@hotmail.com",
       color: "text-primary",
     },
     {
@@ -61,7 +61,7 @@ const Contact = () => {
       icon: FaLinkedin,
       label: "LinkedIn",
       value: "Alexandre Pecker",
-      href: "https://linkedin.com/in/alexandrepecker",
+      href: "https://www.linkedin.com/in/alexandre-pecker-sampaio-1005ba19b/",
       color: "text-secondary",
     },
   ];

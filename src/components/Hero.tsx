@@ -12,8 +12,7 @@ const Hero = () => {
 
   const socialLinks = [
     { icon: FaGithub, href: "https://github.com/alexandrepecker", label: "GitHub" },
-    { icon: FaLinkedin, href: "https://linkedin.com/in/alexandrepecker", label: "LinkedIn" },
-    { icon: FaYoutube, href: "https://youtube.com/@kurtzfeeds", label: "YouTube" },
+    { icon: FaLinkedin, href: "https://www.linkedin.com/in/alexandre-pecker-sampaio-1005ba19b/", label: "LinkedIn" },
   ];
 
   return (
@@ -55,7 +54,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-foreground/80 mb-12 max-w-2xl mx-auto"
           >
-            Desenvolvedor apaixonado por tecnologia e automação
+            Desenvolvedor apaixonado por tecnologia
           </motion.p>
 
           <motion.div
